@@ -382,3 +382,4 @@ resource "aws_eks_cluster" "example" {
   }
   version = "2.0.0"
 }
+# Modified [aws_all_issues_addressed.tf] on [2021-02-09 19:08:43.049444]
