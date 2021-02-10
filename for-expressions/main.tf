@@ -61,3 +61,5 @@ output "ips" {
     (instance.public_ip != "" ? list(instance.private_ip, instance.public_ip) : list(instance.private_ip))
   ]
 }
+
+# Modified [main.tf] on [2021-02-09 19:08:39.376442]
